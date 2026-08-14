@@ -108,7 +108,7 @@ This repository is released under the [MIT License](LICENSE). The same license w
 
 ## Contact
 
-- Jain M. Francis — [jainmfrancis.197ma002@nitk.edu.in](mailto:jainmfrancis.197ma002@nitk.edu.in)
+- Jain M. Francis — [jainmfrancis.197ma002@nitk.edu.in](mailto:jainmfrancis.197ma002@nitk.edu.in), [jainmfrancis@gmail.com](mailto:jainmfrancis@gmail.com)
 - Chandhini G (corresponding) — [chandhini@nitk.edu.in](mailto:chandhini@nitk.edu.in)
 - Rakesh Kumar — [rakesh.kumar@mahindrauniversity.edu.in](mailto:rakesh.kumar@mahindrauniversity.edu.in)
 - Nagaiah Chamakuri — [nagaiah.chamakuri@iisertvm.ac.in](mailto:nagaiah.chamakuri@iisertvm.ac.in)
