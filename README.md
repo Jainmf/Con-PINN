@@ -7,6 +7,7 @@ This repository accompanies the paper:
 
 > Jain M. Francis, Chandhini G, Rakesh Kumar, Nagaiah Chamakuri.  
 > **Conservation-Enhanced PINN for dispersive PDEs.**
+> (Under Review)
 
 **Corresponding author:** Chandhini G ([chandhini@nitk.edu.in](mailto:chandhini@nitk.edu.in))
 
