@@ -1,0 +1,12 @@
+# Environment used for the paper experiments.
+# Exact pins will be confirmed when the source code is released.
+#
+# Paper training stack:
+#   Python 3.8.5
+#   torch==1.11.0+cu102
+#   CUDA 10.2
+
+numpy
+scipy
+matplotlib
+torch

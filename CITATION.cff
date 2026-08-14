@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: "Con-PINN: Conservation-Enhanced PINN for dispersive PDEs"
+message: "If you use this work, please cite the article below."
+type: software
+authors:
+  - family-names: Francis
+    given-names: Jain M.
+    email: jainmfrancis.197ma002@nitk.edu.in
+    affiliation: National Institute of Technology Karnataka
+  - family-names: G
+    given-names: Chandhini
+    email: chandhini@nitk.edu.in
+    affiliation: National Institute of Technology Karnataka
+  - family-names: Kumar
+    given-names: Rakesh
+    email: rakesh.kumar@mahindrauniversity.edu.in
+    affiliation: Mahindra University / IISER Thiruvananthapuram
+  - family-names: Chamakuri
+    given-names: Nagaiah
+    email: nagaiah.chamakuri@iisertvm.ac.in
+    affiliation: IISER Thiruvananthapuram
+url: "https://github.com/Jainmf/Con-PINN"
+repository-code: "https://github.com/Jainmf/Con-PINN"
+license: MIT
+version: "0.0.0"
+date-released: "2026-08-14"
+keywords:
+  - physics-informed neural networks
+  - conservation laws
+  - Korteweg-de Vries
+  - Equal Width equation
+  - Zakharov system
+  - dispersive PDEs
+preferred-citation:
+  type: article
+  title: "Conservation-Enhanced PINN for dispersive PDEs"
+  authors:
+    - family-names: Francis
+      given-names: Jain M.
+    - family-names: G
+      given-names: Chandhini
+    - family-names: Kumar
+      given-names: Rakesh
+    - family-names: Chamakuri
+      given-names: Nagaiah
+  journal: "Soft Computing"
+  year: 2026
+  notes: "Under review. Update DOI and pages after publication."
