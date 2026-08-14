@@ -1,6 +1,6 @@
 # Con-PINN: Conservation-Enhanced Physics-Informed Neural Networks for Dispersive PDEs
 
-[![Status](https://img.shields.io/badge/code-release%20upon%20publication-yellow)](#code-release-status)
+[![Status](https://img.shields.io/badge/example-PINN%20%2B%20Con--PINN%20(KdV1)-green)](#example-currently-available)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This repository accompanies the paper:
@@ -13,13 +13,19 @@ This repository accompanies the paper:
 
 ---
 
-## Code-release status
+## Example currently available
 
-The source code, training scripts, configuration files, and instructions needed to reproduce the numerical experiments **will be added to this repository upon publication** of the article.
+This repository currently includes **one** paper case: KdV single soliton, with **PINN** and **Con-PINN** only. Remaining cases, the cPINN baseline, and the study scripts will be added **upon publication**.
 
-Until then, this repository is a public placeholder so that the manuscript can cite a stable URL: [github.com/Jainmf/Con-PINN](https://github.com/Jainmf/Con-PINN). Please watch or star the repository if you would like to be notified when the code is released.
+```bash
+pip install -r requirements.txt
+cd src
+python kdv1.py --seeds 0 1 2 3 4 --methods pinn conpinn --out_dir ../results_kdv1
+```
 
-If you need access for review or collaboration before publication, contact the corresponding author.
+See [`src/README.md`](src/README.md) for a short smoke test (`--tiny`) and output layout.
+
+Until the full release, this repository also provides a stable citation URL: [github.com/Jainmf/Con-PINN](https://github.com/Jainmf/Con-PINN).
 
 ---
 
@@ -44,17 +50,15 @@ Main results use **five independent random seeds** (`0`–`4`).
 
 ---
 
-## What will be released
+## What will be released later
 
-After publication this repository will include:
+After publication this repository will also include:
 
-- Training scripts for PINN, Con-PINN, and cPINN on each test case
+- Training scripts for the remaining test cases, and the cPINN baseline
 - Scripts for the noise, extrapolation, scaling, and ablation studies
 - Plotting / table scripts used to generate the paper figures
-- A `requirements.txt` (or equivalent) matching the training environment
-- A short guide to reproduce the reported runs
 
-Planned layout (subject to small changes at release):
+Current layout:
 
 ```text
 con-pinn/
@@ -62,7 +66,9 @@ con-pinn/
 ├── LICENSE
 ├── CITATION.cff
 ├── requirements.txt
-└── src/                 # training, studies, and plotting scripts (to be added)
+└── src/
+    ├── kdv1.py          # KdV single soliton: PINN and Con-PINN
+    └── common.py
 ```
 
 ---
@@ -102,7 +108,7 @@ A machine-readable citation is also provided in [`CITATION.cff`](CITATION.cff). 
 
 ## License
 
-This repository is released under the [MIT License](LICENSE). The same license will apply to the source code when it is added.
+This repository is released under the [MIT License](LICENSE).
 
 ---
 
