@@ -6,8 +6,7 @@
 This repository accompanies the paper:
 
 > Jain M. Francis, Chandhini G, Rakesh Kumar, Nagaiah Chamakuri.  
-> **Conservation-Enhanced PINN for dispersive PDEs.**  
-> *Soft Computing* (under review).
+> **Conservation-Enhanced PINN for dispersive PDEs.**
 
 **Corresponding author:** Chandhini G ([chandhini@nitk.edu.in](mailto:chandhini@nitk.edu.in))
 
@@ -90,15 +89,13 @@ Please cite the paper if you use this work:
 
 ```bibtex
 @article{francis2026conpinn,
-  title   = {Conservation-Enhanced {PINN} for dispersive {PDEs}},
-  author  = {Francis, Jain M. and G, Chandhini and Kumar, Rakesh and Chamakuri, Nagaiah},
-  journal = {Soft Computing},
-  year    = {2026},
-  note    = {Under review}
+  title  = {Conservation-Enhanced {PINN} for dispersive {PDEs}},
+  author = {Francis, Jain M. and G, Chandhini and Kumar, Rakesh and Chamakuri, Nagaiah},
+  year   = {2026}
 }
 ```
 
-A machine-readable citation is also provided in [`CITATION.cff`](CITATION.cff). Update the `year`, `doi`, and `url` fields after the article is published.
+A machine-readable citation is also provided in [`CITATION.cff`](CITATION.cff). Add the journal name, `year`, `doi`, and pages after the article is published.
 
 ---
 
@@ -112,3 +109,5 @@ This repository is released under the [MIT License](LICENSE). The same license w
 
 - Jain M. Francis — [jainmfrancis.197ma002@nitk.edu.in](mailto:jainmfrancis.197ma002@nitk.edu.in)
 - Chandhini G (corresponding) — [chandhini@nitk.edu.in](mailto:chandhini@nitk.edu.in)
+- Rakesh Kumar — [rakesh.kumar@mahindrauniversity.edu.in](mailto:rakesh.kumar@mahindrauniversity.edu.in)
+- Nagaiah Chamakuri — [nagaiah.chamakuri@iisertvm.ac.in](mailto:nagaiah.chamakuri@iisertvm.ac.in)
